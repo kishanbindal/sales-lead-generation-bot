@@ -1,0 +1,21 @@
+{
+    "email_after_4": {
+      "nudge_text": "Could you share your email so we can send you the details?"
+    },
+    "email_interest": {
+      "nudge_text": "Want me to connect you with our team? Just drop your email address."
+    },
+    "email_questions": {
+      "nudge_text": "Looks like you’re exploring quite a bit! Can I send you a quick summary? Share your email below."
+    },
+    "email_pause": {
+      "nudge_text": "We’d love to keep you updated. Can you provide your email address?"
+    },
+    "email_pricing": {
+      "nudge_text": "Before we go further, could you provide your email so we can tailor the next steps?"
+    },
+    "email_resource": {
+      "nudge_text": "I can share a free resource on this. What’s the best email to send it to?"
+    }
+  }
+  

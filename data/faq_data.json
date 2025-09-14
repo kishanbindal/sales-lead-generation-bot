@@ -1,0 +1,137 @@
+{
+    "faqs": [
+      {
+        "id": "pricing_overview",
+        "q": "How is pricing structured?",
+        "q_variants": ["pricing", "price per user", "cost", "plans"],
+        "a_md": "We offer **Starter**, **Growth**, and **Enterprise** plans. Billing is monthly or annual with volume discounts.",
+        "source": {"title": "pricing.md", "loc": "#plans", "url": "https://example.com/pricing#plans"},
+        "tags": ["pricing"],
+        "audience": ["Exec", "Procurement"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "free_trial",
+        "q": "Do you have a free trial?",
+        "q_variants": ["trial", "try for free", "pilot"],
+        "a_md": "Yes—**14-day free trial** on Starter and Growth. No credit card required.",
+        "source": {"title": "pricing.md", "loc": "#trial", "url": "https://example.com/pricing#trial"},
+        "tags": ["pricing", "trial"],
+        "audience": ["Exec", "Engineering"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "enterprise_quote",
+        "q": "How do I get an enterprise quote?",
+        "q_variants": ["custom pricing", "quote", "RFP pricing"],
+        "a_md": "For **Enterprise** plans, share seats, region, and compliance needs; we’ll return a tailored quote within 1–2 business days.",
+        "source": {"title": "pricing.md", "loc": "#enterprise", "url": "https://example.com/pricing#enterprise"},
+        "tags": ["pricing", "enterprise"],
+        "audience": ["Procurement", "Exec"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "soc2",
+        "q": "Are you SOC 2 compliant?",
+        "q_variants": ["soc2", "soc 2 type ii", "security certification"],
+        "a_md": "**Yes — SOC 2 Type II** with annual audits. Report available under NDA.",
+        "source": {"title": "security.md", "loc": "#soc2", "url": "https://example.com/security#soc2"},
+        "tags": ["security", "compliance"],
+        "audience": ["Security", "Procurement"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "data_residency_india",
+        "q": "Do you support data residency in India?",
+        "q_variants": ["india data residency", "in-country data", "regional hosting india"],
+        "a_md": "Yes—**India data residency** is available on Enterprise via in-region deployment; customer data at rest remains within approved Indian regions.",
+        "source": {"title": "data-residency.md", "loc": "#india", "url": "https://example.com/security/data-residency#india"},
+        "tags": ["security", "residency"],
+        "audience": ["Security", "Procurement"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "subprocessors",
+        "q": "Where can I see your sub-processors?",
+        "q_variants": ["subprocessors", "vendors", "data processors"],
+        "a_md": "Our current sub-processors list is published and updated here. You can subscribe to change notifications.",
+        "source": {"title": "security.md", "loc": "#subprocessors", "url": "https://example.com/security#subprocessors"},
+        "tags": ["security", "compliance"],
+        "audience": ["Security", "Legal"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "sso_saml_okta",
+        "q": "Do you support SSO (SAML/Okta/Azure AD)?",
+        "q_variants": ["sso", "saml", "okta", "azure ad login"],
+        "a_md": "Yes—SSO via **SAML 2.0** (Okta, Azure AD, OneLogin). JIT provisioning is supported on Growth+ and Enterprise.",
+        "source": {"title": "sso.md", "loc": "#setup", "url": "https://example.com/security/sso#setup"},
+        "tags": ["security", "integration"],
+        "audience": ["Security", "IT"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "api_limits",
+        "q": "What are the API rate limits?",
+        "q_variants": ["api limits", "rate limit", "throttle"],
+        "a_md": "Default limits: **600 req/min per org** and **50 concurrent jobs**. Higher quotas are available on Enterprise.",
+        "source": {"title": "api.md", "loc": "#rate-limits", "url": "https://example.com/docs/api#rate-limits"},
+        "tags": ["developer", "api", "integration"],
+        "audience": ["Engineering"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "uptime_sla",
+        "q": "What uptime do you commit to?",
+        "q_variants": ["sla", "uptime", "availability"],
+        "a_md": "We commit to **99.9% monthly uptime** on Growth and **99.95%** on Enterprise (see SLA for credits).",
+        "source": {"title": "sla.md", "loc": "#uptime", "url": "https://example.com/legal/sla#uptime"},
+        "tags": ["legal", "sla"],
+        "audience": ["Procurement", "Security"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "data_retention",
+        "q": "What is your data retention policy?",
+        "q_variants": ["retention", "how long store data"],
+        "a_md": "Default retention is **30 days for logs** and **customer-controlled retention** for primary data; configurable on Enterprise.",
+        "source": {"title": "security.md", "loc": "#retention", "url": "https://example.com/security#retention"},
+        "tags": ["security", "privacy"],
+        "audience": ["Security", "Legal"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "support_sla",
+        "q": "What support do you provide?",
+        "q_variants": ["support levels", "support response time"],
+        "a_md": "**Email & in-app** for Starter/Growth; **24×7 priority** with **2-hour P1** for Enterprise.",
+        "source": {"title": "support.md", "loc": "#plans", "url": "https://example.com/support#plans"},
+        "tags": ["support"],
+        "audience": ["Engineering", "Procurement"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      },
+      {
+        "id": "billing_invoices",
+        "q": "How do billing and invoices work?",
+        "q_variants": ["invoice", "billing", "payment methods"],
+        "a_md": "We accept credit card and ACH/wire (Enterprise). Invoices are available in the admin console and via email.",
+        "source": {"title": "billing.md", "loc": "#invoices", "url": "https://example.com/billing#invoices"},
+        "tags": ["billing", "pricing"],
+        "audience": ["Procurement", "Finance"],
+        "approval": "approved",
+        "last_updated": "2025-09-13"
+      }
+    ]
+  }
+  

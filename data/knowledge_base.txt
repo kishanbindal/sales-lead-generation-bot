@@ -1,0 +1,39 @@
+Here’s a plain **knowledge.txt** you can drop in (about \~800 words). No tags, just clear sections so retrieval is easy.
+
+```
+Company Overview
+Our platform helps teams deploy, govern, and scale AI-powered workflows safely. Customers use it for document automation, analytics, and internal copilots. We focus on three things: fast time to value, enterprise-grade security, and transparent operations. Admins control access, data retention, and integrations; builders get simple APIs and SDKs; end users get a clean UI with audit trails. The service runs in cloud regions with automated failover and continuous monitoring. A trust center provides current status, compliance artifacts, and sub-processor disclosures.
+
+Plans and Pricing
+We offer Starter, Growth, and Enterprise plans. Starter is optimized for small teams exploring core features. Growth adds advanced collaboration and single sign-on. Enterprise includes data residency options, SCIM provisioning, higher API quotas, and tailored SLAs. Annual billing includes volume discounts based on committed seats; monthly billing is available for Starter and Growth. If your requirements include dedicated environments or custom terms, request a quote with seat count, regions, and compliance needs and we will return a bill of materials.
+
+Free Trial and Quotes
+A 14-day free trial is available for Starter and Growth with no credit card required. Trials include sample datasets, quickstart templates, and email support. For Enterprise evaluations, we can provide a guided pilot and a security review checklist. Custom pricing proposals consider expected usage, compliance add-ons (for example, data residency), and support tier. Quotes typically turn around in one to two business days once scope is confirmed.
+
+Security and SOC 2
+We maintain SOC 2 Type II compliance with annual third-party audits. Controls include secure software development, change management, vulnerability scanning, incident response, least-privilege access, and continuous logging. Production access is gated by MFA and short-lived credentials; all administrative actions are recorded. Penetration tests are conducted at least annually. A current SOC 2 report is available under NDA through our trust center. We map our controls to common frameworks such as ISO 27001 and NIST CSF and provide a control matrix on request.
+
+Data Residency (India)
+Enterprise customers can request data residency in India. When enabled, customer data at rest and scheduled backups are stored in approved Indian regions. Cross-border processing is minimized; operational telemetry that cannot be localized is de-identified before export. Residency is enforced at the workspace level via infrastructure policy and automated checks in the deployment pipeline. Disaster recovery replicas remain in-region to meet recovery objectives without moving data offshore. Residency can be combined with IP allow-listing and private connectivity.
+
+Data Retention and Deletion
+By default, application logs are retained for 30 days and then rotated. Customer content persists for the duration of the contract unless a shorter policy is configured per workspace. Object-level deletions take effect immediately in primary storage and propagate to replicas during the next compaction window. Backups age out automatically according to policy; accelerated purge can be requested through support. On contract termination we follow a standard sanitization process and provide a certificate of destruction when completed.
+
+SSO, SAML, and SCIM
+Single sign-on is available via SAML 2.0 and OIDC with providers including Okta, Azure AD, and OneLogin. Admins can enforce SSO, enable just-in-time (JIT) provisioning, and map identity provider groups to roles. Session length, MFA requirements, and password fallback are configurable. SCIM user and group provisioning is available on Enterprise plans to keep directory changes synchronized automatically. For incident response, administrators can invalidate all active sessions and rotate signing certificates without downtime.
+
+API Rate Limits and Performance
+Default API limits are 600 requests per minute per organization and up to 50 concurrent jobs per workspace. Bursting is permitted within a short window to handle spiky workloads; sustained throughput above defaults requires an enterprise quota increase. 429 responses include a Retry-After header to simplify client backoff. Long-running operations are asynchronous and return job IDs that can be polled or subscribed to via webhooks. Best practices include reusing HTTP connections, paginating results, and parallelizing within documented concurrency bounds.
+
+Authentication and Keys
+Programmatic access uses Bearer tokens tied to user or service accounts with specific scopes. Keys are created and rotated in the admin console or via API, and last-used timestamps and originating IPs are exposed for auditing. Scope tokens to least privilege and use separate keys for automation and human access. Webhooks can be verified with a timestamped HMAC to prevent replay. If a key is suspected compromised, revoke it immediately; downstream jobs will fail closed until a new credential is configured.
+
+Support and SLA
+Standard support is included with Starter and Growth during business hours by email. Enterprise includes 24×7 priority support with a two-hour response target for P1 incidents, access to a technical account manager, and quarterly health reviews. Uptime commitments are 99.9% monthly for Growth and 99.95% for Enterprise, with service credits defined in the SLA. Maintenance windows are announced in advance, and real-time status is available on the status page.
+
+Billing and Invoices
+We accept credit card and ACH or wire transfer for Enterprise. Invoices are issued from the admin console and can be emailed automatically to billing contacts. You can update tax details, view payment history, and download past invoices at any time. For procurement workflows, we support purchase orders and custom vendor forms, subject to review. Changes to seat counts take effect at the next billing interval unless otherwise agreed.
+
+Sub-processors and Trust Center
+We maintain an up-to-date list of sub-processors and notify customers of material changes. Data processing agreements and standard contractual clauses are available on request. The trust center also hosts compliance reports, pen-test summaries, and security whitepapers. Customers may request additional documentation under NDA to support their reviews.
+```

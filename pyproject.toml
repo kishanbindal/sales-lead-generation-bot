@@ -1,0 +1,22 @@
+[project]
+name = "finkraftai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.12.0",
+    "fuzzywuzzy>=0.18.0",
+    "jupyter>=1.1.1",
+    "langchain-community>=0.3.29",
+    "langchain-huggingface>=0.3.1",
+    "langchain-ollama>=0.3.8",
+    "langchain-openai>=0.3.33",
+    "langchain-text-splitters>=0.3.11",
+    "langgraph>=0.6.7",
+    "openai>=1.107.2",
+    "python-dotenv>=1.1.1",
+    "sentence-transformers>=5.1.0",
+    "streamlit>=1.49.1",
+    "torch>=2.8.0",
+]

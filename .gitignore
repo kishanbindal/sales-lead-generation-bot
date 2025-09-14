@@ -1,0 +1,9 @@
+
+.env
+/faiss_store
+/faiss_store_*
+/ai_utils 
+/chatbot-core
+/config
+__pycache__/
+/widgets
