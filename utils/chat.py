@@ -5,7 +5,7 @@ from langchain.agents import AgentExecutor
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 import os
-load_dotenv(override=True, dotenv_path="C:/Users/ANT-PC/OneDrive/Desktop/FinkraftAI/.env")
+load_dotenv(override=True, dotenv_path=path_to_env)
 
 api_key = os.getenv("OPENAI_API_KEY")
 
